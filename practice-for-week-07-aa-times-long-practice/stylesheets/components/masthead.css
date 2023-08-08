@@ -1,0 +1,97 @@
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* All button icons */
+.masthead__buttons {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__buttons:hover {
+  background-color: #f7f7f5;
+}
+
+/* Sections of grid */
+
+.masthead__menu-and-search {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding-left: 20px;
+}
+
+.masthead__actions {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  height: 60px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.masthead__technologies {
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-content: center;
+}
+
+.masthead__date {
+  font-size: 11px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.masthead__logo {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  padding-top: 20px;
+}
+
+.masthead__paper {
+  font-size: 11px;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  justify-content: flex-end;
+}
+
+/* Align center, flex,  */
+.masthead__menu-and-search,
+.masthead__actions {
+  align-items: center;
+  display: flex;
+}
+
+/* Align end, flex */
+.masthead__date,
+.masthead__paper {
+  align-items: flex-end;
+  display: flex;
+}
+
+/* Top & bottom border, bottom padding */
+.masthead__date,
+.masthead__logo,
+.masthead__paper {
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  padding-bottom: 11px;
+}
+
+/* Sub-sections of technologies */
+.tech-spans {
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1px;
+}
+
+.techs {
+  color: #6f6f6f;
+  font-size: 10px;
+  margin: 0 5px;
+  text-transform: uppercase;
+}

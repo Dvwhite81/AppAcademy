@@ -1,0 +1,19 @@
+#nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+#nav-list {
+  display: flex;
+}
+
+.nav-items {
+  line-height: 12px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  #nav-container {
+    display: none;
+  }
+}
