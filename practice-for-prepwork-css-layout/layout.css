@@ -1,0 +1,65 @@
+
+body {
+    display: grid;
+}
+
+form {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+
+fieldset {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+fieldset div {
+    display: grid;
+    grid-column: 2 / 4;
+}
+
+legend {
+    border: 1px solid black;
+    margin-left: 12%;
+}
+
+label,
+p {
+    text-align: center;
+}
+
+#status-div {
+    grid-column: 2 /3;
+}
+
+#date-div {
+    grid-column: 3 / 4;
+}
+
+#radio-wrapper {
+    text-align: center;
+}
+
+#radio-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+#radio-div input {
+    margin: 0;
+}
+
+#checkbox-div {
+    display: flex;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+}
