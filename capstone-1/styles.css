@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+* :not(input, textarea, button) {
+    background-color: black!important;
+}
+
+#main-body {
+    padding-bottom: 10px;
+}
+
+#welcome-img {
+    width: 50%;
+    height: auto;
+}
+
+h1,
+h2,
+li a,
+li a:hover,
+.light-label {
+    color: #63E4F2;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+}
+
+p,
+label,
+legend {
+    color: #049DBF;
+    font-size: 24px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.resize-image {
+    width: 200px;
+    height: 400px;
+    object-fit: contain;
+}
+
+#form-wrapper {
+    display: flex;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+}
+
+#inputs-div .row input {
+    margin-bottom: 5px;
+}

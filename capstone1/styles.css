@@ -1,0 +1,17 @@
+#main-body {
+    background-color: black;
+}
+
+#welcome-img {
+    width: 50%;
+    height: auto;
+}
+
+h1,
+h2 {
+    color: cyan;
+}
+
+p {
+    color: darkcyan;
+}
