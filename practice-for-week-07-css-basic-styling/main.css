@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: lightblue;
+    width: 500px;
+    margin: auto;
+}
+h1 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin: 2px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: blue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin: 2px;
+    font-weight: 500;
+    color: blue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: blue;
+    background-color: lightblue;
+    text-align: justify;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: lightblue;
+    height: 50px;
+    width: 50px;
+}
