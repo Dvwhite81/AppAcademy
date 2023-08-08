@@ -1,0 +1,52 @@
+body {
+    background-color: #1d3e81;
+    color: #E8EFF0;
+    text-align: center;
+}
+img {
+    width: 50%;
+}
+a {
+    color: #E8EFF0;
+}
+
+a.backButton {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Phase 4 */
+@media print {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .notPrinted {
+        display: none;
+    }
+
+    body {
+        position: relative;
+    }
+
+    p {
+        left: 50%;
+        position: absolute;
+        top: 95%;
+        transform: translate(-50%, -50%);
+    }
+
+    a.backButton {
+        display: none;
+    }
+}

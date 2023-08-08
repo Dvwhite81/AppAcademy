@@ -1,0 +1,37 @@
+Main Heading (h1) -
+    Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit, sed do
+
+Subheading (h2) -
+    By Author
+    The Lore:
+    The Ipsum:
+    More Info
+
+Main Image (img) -
+    The big img
+
+Text paragraphs (p)
+    Text below The Lore: and The Ipsum:
+
+Links (underlined blue text) (a) -
+    Contact
+    About Us
+    Terms Of Use
+    FAQs
+    Privacy Policy
+
+Lists (ul, ol, li) -
+    Bullet points below iterative and recursive
+
+Sections (div) -
+    Main Heading
+    Line between heading and img
+    img
+    Sub-headings and paragraphs
+    Lists
+
+Social media icons (identify what tag a social media icon is) -
+    <a> tags or <i> tags for icons
+    facebook
+    twitter
