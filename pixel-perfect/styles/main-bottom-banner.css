@@ -1,0 +1,18 @@
+.banner-container {
+  background-image: url("../images/b-b-b-small.png");
+  background-size: contain;
+  height: 290px;
+  margin: 0;
+  width: 100%;
+}
+
+.c-btn-primary {
+  background-color: #25d670;
+  border-color: #6af26e;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 10rem;
+  width: 25.5rem;
+}

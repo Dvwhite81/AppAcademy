@@ -1,0 +1,88 @@
+Binary to base 10
+0b1010
+    0 + 2 + 0 + 8 = 10
+0b0011
+    1 + 2 + 0 + 0 = 3
+
+Binary to hexadecimal
+0b1010
+    10 = A = 0xA
+0b0011
+    3 = 3 = 0x3
+
+Hexadecimal to base 10
+0xa1
+    (1 * 1) + (10 * 16) = 161
+
+0xff
+    (15 * 1) + (15 * 16) = 255
+
+Hexadecimal to binary
+0xa1
+    0001 + 1010 (reverse) = 10100001
+0xff
+    1111 + 1111 (reverse) = 11111111
+
+Base 10 to binary
+8
+    (8 / 2 = 4) remainder = 0
+    (4 / 2 = 2) remainder = 0
+    (2 / 2 = 1) remainder = 0
+    (1 / 2 = 0) remainder = 1
+    0001 (reverse) = 0b1000
+24
+    (24 / 2 = 12) remainder = 0
+    (12 / 2 = 6) remainder = 0
+    (6 / 2 = 3) remainder = 0
+    (3 / 2 = 1) remainder = 1
+    (1 / 2 = 0) remainder = 1
+    00011 (reverse) 0b11000
+255
+    (255 / 2 = 127) remainder = 1
+    (127 / 2 = 63) remainder = 1
+    (63 / 2 = 31) remainder = 1
+    (31 / 2 = 15) remainder = 1
+    (15 / 2 = 7) remainder = 1
+    (7 / 2 = 3) remainder = 1
+    (3 / 2 = 1) remainder = 1
+    (1 / 2 = 0) remainder = 1
+    11111111 (reverse) 0b11111111
+
+Base 10 to hexadecimal
+8
+    (8 / 16 = 0) remainder = 8
+    0x8
+24
+    (24 / 16 = 1) remainder = 8
+    (1 / 16 = 0) remainder = 1
+    0x18
+255
+    (255 / 16 = 15) remainder = 15 (f)
+    (15 / 16 = 0) remainder = 15 (f)
+    0xff
+
+Base 10 to ASCII
+65 = A
+66 = B
+97 = a
+98 = b
+
+Hexadecimal to ASCII
+0x41
+    (1 * 1 = 1) + (4 * 16 = 64) = 65 = A
+0x42
+    (2 * 1 = 2) + (4 * 16 = 64) = 66 = B
+0x61
+    (1 * 1 = 1) + (6 * 16 = 96) = 97 = a
+0x62
+    (2 * 1) + (6 * 16) = 98 = b
+
+Binary to ASCII
+0b01000001
+    1 + 0 + 0 + 0 + 0 + 0 + 64 + 0 = 65 = A
+0b01000010
+    0 + 2 + 0 + 0 + 0 + 0 + 64 + 0 = 66 = B
+0b01100001
+    1 + 0 + 0 + 0 + 0 + 32 + 64 + 0 = 97 = a
+0b01100010
+    0 + 2 + 0 + 0 + 0 + 32 + 64 + 0 = 98 = b

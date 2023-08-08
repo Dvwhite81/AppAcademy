@@ -1,0 +1,12 @@
+.container--centered {
+  text-align: center;
+}
+
+.m-clients .container {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.m-clients__strip {
+  display: none;
+}

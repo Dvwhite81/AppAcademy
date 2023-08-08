@@ -1,0 +1,238 @@
+@media screen and (min-width: 920px) {
+  .nav-main {
+    display: block;
+    float: left;
+    padding-left: 75px;
+  }
+
+  .nav-mob {
+    display: none;
+  }
+
+  .c-logo {
+    float: left;
+  }
+
+  .mob-toggle-nav,
+  .nav__login,
+  .nav__signup {
+    font-size: 1rem;
+  }
+
+  #login-switch:after {
+    font-size: 1rem;
+    content: "LOGIN" !important;
+  }
+
+  #login-switch:hover:after {
+    font-size: 1rem;
+    content: "RAWRR!" !important;
+  }
+
+  .nav-main .nav-list {
+    display: inline-flex;
+  }
+
+  .header__banner-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .header--text-media .header__banner-text {
+    width: 66.667%;
+    order: 1;
+    padding-right: 4.875rem;
+  }
+
+  .home .header__banner-content h1 {
+    color: #3a3a3a;
+    font-size: 3.25rem;
+    text-align: left;
+  }
+
+  .header-text-media .header__banner-text .c-btn-row,
+  .header--text-form .header__banner-text h1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .c-btn-row {
+    display: flex;
+  }
+
+  .feature .container {
+    flex-direction: column;
+  }
+
+  .feature__image .feature__img {
+    padding-bottom: 0;
+  }
+
+  .feature__content {
+    order: 1;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-align: center;
+  }
+
+  .feature__content h3 {
+    width: 75%;
+  }
+
+  .feature__content .feature__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .feature__content .feature__list .feature__item {
+    padding-right: 2rem;
+  }
+
+  .nav-footer .nav-list {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-footer .nav-list .nav-item {
+    flex-basis: 20%;
+  }
+
+  .nav-footer .nav__item-has-subnav {
+    margin-bottom: 0;
+    padding-right: 1.5rem;
+  }
+
+  .nav-footer .nav__item-has-subnav > .nav-link {
+    margin-bottom: 0.625rem;
+  }
+
+  .nav-footer .nav-list .nav-link {
+    padding: 0.625rem 0 0;
+    text-decoration: none;
+  }
+
+  .nav-footer-sub {
+    text-align: left;
+  }
+
+  .nav-footer-sub .nav-list > .nav-item {
+    margin-bottom: 0.875rem;
+  }
+
+  .nav-footer-sub .nav-item {
+    line-height: 1.65;
+  }
+
+  .nav-footer-sub .nav-sub,
+  .nav-footer-sub .nav-sub .nav-item {
+    display: inline-block;
+  }
+
+  .nav-footer-sub .nav-list > .nav-item > .nav-link {
+    font-size: 1rem;
+  }
+
+  .nav-footer-sub .nav-list > .nav-item > .nav-link {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+  }
+
+  .nav-footer-sub .nav-sub .nav-item::after {
+    content: "•";
+    color: #837c8d;
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
+  .nav-footer-sub .nav-sub .nav-item:last-child::after {
+    content: "";
+  }
+
+  .nav-footer-sub .nav-link {
+    padding-top: 0;
+  }
+
+  .nav-footer-sub .nav-sub {
+    margin-left: 100px;
+  }
+
+  .nav-footer-sub .nav-sub .nav-link {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .m-clients__list {
+    display: block;
+  }
+
+  .m-clients .container {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .module.slider {
+    height: 15rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .slider__nav {
+    display: block;
+  }
+
+  .slides-slide-left p {
+    width: 100%;
+    border-right: 1px solid #d2d2d2;
+    padding-right: 1.5rem;
+    font-size: 1.375rem;
+    margin-bottom: 0;
+  }
+
+  .banner-container {
+    background-image: url("../images/bottom-banner-background.png");
+    background-size: cover;
+    margin: 6rem 0;
+  }
+
+  .c-btn-primary {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1rem;
+    justify-content: center;
+    position: relative;
+    top: 11.5rem;
+    width: 11rem;
+  }
+
+  p,
+  li {
+    font-size: 1.125rem;
+  }
+
+  .footer__sub {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer__copyright {
+    width: 50%;
+    text-align: left;
+  }
+
+  .footer__logos {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .m-clients__strip {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 3.5rem;
+  }
+}

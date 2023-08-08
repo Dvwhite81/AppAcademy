@@ -1,0 +1,274 @@
+/* Header Bar */
+.header__bar {
+  background-color: white;
+  height: 5rem;
+}
+
+.header__bar .container {
+  text-align: center;
+}
+
+.header__bar .c-logo {
+  color: #e66760;
+}
+
+.container {
+  display: block;
+  margin: 0 16px;
+  max-width: 77rem;
+  padding: 0 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.c-logo {
+  display: inline-block;
+  margin-top: 1.25rem;
+  position: relative;
+  text-decoration: none;
+  vertical-align: top;
+  z-index: 2;
+}
+
+.c-logo__img {
+  height: 40px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button {
+  cursor: pointer;
+}
+
+.mob-toggle-nav,
+.nav__login,
+.nav__signup {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 5rem;
+  min-width: 5rem;
+  padding: 0 1rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.nav__login:hover {
+  right: 20px;
+}
+
+.mob-toggle-nav .mob-toggle-nav__close {
+  display: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.mob-toggle-nav .mob-toggle-nav__menu {
+  display: none;
+}
+
+.mob-toggle-nav {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  left: 0;
+  right: auto;
+}
+
+.nav-mob .nav-list {
+  background: #e66760;
+  color: white;
+  height: calc(100vh - 5rem);
+  overflow: scroll;
+  position: absolute;
+  top: 5rem;
+  transition: 0.3s all ease;
+  width: 80%;
+  z-index: 99;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.show {
+  display: block !important;
+}
+
+ol,
+ul,
+p {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-mob .nav-link {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  display: block;
+  font-size: 1.125rem;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-mob.show:after {
+  display: block;
+  opacity: 0.45;
+}
+
+.nav-mob:after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transition-property: opacity;
+}
+
+p,
+li {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+.nav-main {
+  display: none;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.nav-main .nav-item {
+  display: inline-block;
+  margin-right: 1.875rem;
+}
+
+.nav-main .nav-list > .nav-item .nav-link {
+  color: #3a3a3a;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-main .nav__item-has-subnav {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-main .nav__item-has-subnav:hover .nav-sub {
+  display: block;
+}
+
+.nav-main .nav-sub {
+  display: none;
+  position: absolute;
+}
+
+.nav-main .nav__item-has-subnav .nav-sub .nav-link {
+  text-transform: none;
+}
+
+.nav-main .nav-sub .nav-item {
+  display: block;
+  margin: 0;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.header__bar .nav-main .nav-sub {
+  background-color: #f8fafb;
+}
+
+.nav-main .nav-sub {
+  display: none;
+  position: absolute;
+  left: -1.875rem;
+  right: -1.875rem;
+  top: 3.3875rem;
+  z-index: 9;
+  min-width: 12rem;
+  padding: 0.625rem 0;
+}
+
+.nav__signup {
+  right: 6rem;
+}
+
+.nav__signup .c-btn {
+  font-size: 1.0625rem;
+  height: 2.625rem;
+  line-height: 2.47;
+  margin-top: 1rem;
+  padding: 0 0.75rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+.c-btn {
+  border: 1px solid #b1dcea;
+  color: white;
+  display: block;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  transition-property: background-color, color, border-color;
+}
+
+.c-btn-pricing {
+  background-color: #2685c6;
+  border-color: #99caec;
+  color: white;
+}
+
+#login-switch:after {
+  font-size: 1rem;
+  content: "LOGIN" !important;
+}
+
+#login-switch:hover:after {
+  font-size: 1rem;
+  content: "RAWRR!" !important;
+}
